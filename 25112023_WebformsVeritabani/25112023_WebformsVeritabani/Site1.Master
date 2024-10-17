@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="_25112023_WebformsVeritabani.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="site.css" rel="stylesheet"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header class="menu">
+            <table>
+                <tr>
+                    <td>
+                        <ul>
+                            <li> <a href="Default.aspx">Kontrol Paneli</a></li>
+                            <li> <a href="KullaniciListesi.aspx">Kullanicilar</a></li>
+                            <li> <a href="#">Kategoriler</a></li>
+                            <li> <a href="#">Ürünler</a></li>
+                        </ul>
+                    </td>
+                    <td>
+                       <div class="uyelikBilgileri">
+                            <div>
+                            <asp:Label ID="lblKullanici" runat="server" Text="Label"></asp:Label>
+                        </div>
+                        <div>
+                            <asp:Button ID="btnCikis" runat="server" Text="Oturumu Kapat" OnClick="btnCikis_Click" />
+                        </div>
+                       </div>
+                    </td>
+                </tr>
+            </table>
+        </header>
+        <div style="min-height:500px; background-color:#c5c5c5; padding:40px;">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer>
+            &copy; 2023 - SmartPro Yazılım Uzmanlığı 301 Sınıfı
+        </footer>
+    </form>
+</body>
+</html>

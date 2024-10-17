@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25112023_WebformsVeritabani", "25112023_WebformsVeritabani\25112023_WebformsVeritabani.csproj", "{03A4D181-A731-464B-A3A8-03400A0F233F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03A4D181-A731-464B-A3A8-03400A0F233F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A4D181-A731-464B-A3A8-03400A0F233F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A4D181-A731-464B-A3A8-03400A0F233F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A4D181-A731-464B-A3A8-03400A0F233F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {700A998E-E25B-4858-8F48-0807234E0ED7}
+	EndGlobalSection
+EndGlobal
